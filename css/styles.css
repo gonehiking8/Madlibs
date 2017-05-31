@@ -1,0 +1,39 @@
+#questions {
+  display: block;
+}
+
+form {
+  style: 
+}
+
+body {
+  width: 985px;
+  margin: 0 auto;
+  padding: 45px;
+  {
+
+.container {
+   font-family: Courier;
+   font-weight: bold;
+   font-size: 200pt;
+ }
+
+
+p {
+  font-style: italic;
+  font-family: Courier;
+  color: white;
+}
+
+.sonnet{
+  font-style: Courier;
+}
+
+#story {
+  display: none;
+  font-style: Courier;
+}
+
+#facts {
+  color: white;
+}

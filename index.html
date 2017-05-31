@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+      <meta charset="utf-8">
+    <title>Shakespearean Banter</title>
+
+<style>
+body {
+    background-image: url("woods.jpg");
+}
+</style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="img" style="position:absolute;">
+        <img src="skull.png"
+         onMouseDown="pauseResume();">
+      </div>
+      <div id="questions">
+        <h1><marquee scrollamount="8"><span style="color:#8b9dc3">Render your own </span><span style="color:#f7f7f7">Shakespearean Sonnet!</span></marquee></h1>
+        <div id="blanks">
+
+          <form style="width: 800px">
+            <div class="form-group">
+              <label for="adjective1">Adjective</label>
+              <input id="adjective1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="noun1">Noun</label>
+              <input id="noun1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="adjective2">Adjective</label>
+              <input id="adjective2" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="adjective3">Adjective</label>
+              <input id="adjective3" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="noun2">Noun</label>
+              <input id="noun2" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="adverb">Adverb</label>
+              <input id="adverb" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="pluralnoun">Plural noun</label>
+              <input id="pluralnoun" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="partofhead">Part of the head</label>
+              <input id="partofhead" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="action">Action</label>
+              <input id="action" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="famousperson">Famous person</label>
+              <input id="famousperson" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="animalsound">Animal sound</label>
+              <input id="animalsound" class="form-control" type="text">
+            </div>
+            <br><br>
+            <h1><strong>"Caliban, Act 3, Scene 2"</strong></h1>
+            <button class="btn" id="submitbutton">Click h're for thy sonnet!</button>
+          </div>
+            <br><br>
+            <marquee id="facts" scrollamount="6"><span style="color:##f7f7f7"> Shakespeare has been credited by the Oxford English Dictionary with introducing almost 3,000 words to the English language.</span></marquee>
+            <br><br>
+          </form>
+        </div>
+
+      <div id="story" style="display:none;">
+
+        <p>Be not <span class="adjective1"></span>; the isle is <span class="noun1"></span> of <span class="adjective2"></span>, sounds and sweet <span class="adjective3"></span>, that give <span class="noun2"></span> and hurt not. <span class="adverb"></span> a thoughsand twangling <span class="plural noun"></span>
+        will hum about the <span class="partofhead"></span>, and sometimes voices that, if I then had waked after ling sleep, will make me <span class="action"></span> again: and then, in dreaming, the coulds metought would open and show <span class="famousperson"></span> ready to drop upon me that, when I wakes, I <span class="animalsound"></span> to dream again.</p>
+      </div>
+    </div>
+  </body>
+</html>
